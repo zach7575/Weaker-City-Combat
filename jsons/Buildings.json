@@ -4,6 +4,7 @@
 		"name": "Defense Debuff",
 		"cityStrength": -10,
 		"cityHealth": -100,
+		"requiredTech": "Agriculture",
 		"uniques": ["Automatically built in all cities where it is buildable","Unsellable","Never destroyed when the city is captured"]
 	},
 	// Ancient Era
