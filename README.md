@@ -7,5 +7,5 @@ Cities have less health until walls are built, then they will have the same as v
 1a. Increased city health bonus from walls of Babylon to 150 from 100
 2. Added Defense Debuff to all cities
 	2a. -100 health
-	2b. -10 strength
+	2b. -9 strength
 3c. +100% strength bonus to all cities
