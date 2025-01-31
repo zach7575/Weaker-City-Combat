@@ -2,7 +2,7 @@
 	// Mod Buildings
 	{
 		"name": "Defense Debuff",
-		"cityStrength": -8,
+		"cityStrength": -7,
 		"cityHealth": -100,
 		"requiredTech": "Agriculture",
 		"uniques": ["Automatically built in all cities where it is buildable","Unsellable","Never destroyed when the city is captured"]
