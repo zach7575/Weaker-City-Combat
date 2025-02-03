@@ -1,5 +1,5 @@
-{
-  "constants": [
+[
+  "constants": {
     //changed from 8.0 to 1
     "cityStrengthBase": 1,
     "cityStrengthPerPop": 0.4,
@@ -7,6 +7,6 @@
     "cityStrengthFromTechsExponent": 2.8,
     "cityStrengthFromTechsFullMultiplier": 1.0,
     "cityStrengthFromGarrison": 0.2,
-  ]
-}
+  }
+]
     
