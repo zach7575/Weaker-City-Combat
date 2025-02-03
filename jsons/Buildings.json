@@ -1,17 +1,36 @@
 [
 	// Mod Buildings
-	{
-		"name": "Defense Debuff",
-		//"cityStrength": -7,
-		"cityHealth": -100,
-		"requiredTech": "Agriculture",
-		"uniques": ["Automatically built in all cities where it is buildable","Unsellable","Never destroyed when the city is captured"]
-	},
+	//{
+	//	"name": "Defense Debuff",
+	//	"cityStrength": -7,
+	//	"cityHealth": -100,
+	//	"requiredTech": "Agriculture",
+	//	"uniques": ["Automatically built in all cities where it is buildable","Unsellable","Never destroyed when the city is captured"]
+	//},
 	// Ancient Era
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Stele",
+        	"replaces": "Monument",
+		"uniqueTo": "Ethiopia",
+		"culture": 2,
+		"faith": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
 	{
 		"name": "Walls",
 		"cityStrength": 5,
-		"cityHealth": 100,
+		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": ["Destroyed when the city is captured"]
@@ -22,9 +41,78 @@
 		"cost": 65,
 		"uniqueTo": "Babylon",
 		"cityStrength": 6,
-		"cityHealth": 150,
+		"cityHealth": 100,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Krepost",
+		"replaces": "Barracks",
+		"uniqueTo": "Russia",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	// Medieval Era
+	{
+		"name": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Mughal Fort",
+		"cost": 150,
+		"replaces": "Castle",
+		"uniqueTo": "India",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"culture": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": ["[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
+		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
+	},
+	// Renaissance Era
+	{
+		"name": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Metallurgy",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	// Modern Era
+	{
+		"name": "Military Base",
+		"cityStrength": 12,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Replaceable Parts",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 ]
