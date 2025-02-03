@@ -1,4 +1,4 @@
-[
+{
   "constants": {
     //changed from 8.0 to 1
     "cityStrengthBase": 1,
@@ -8,5 +8,5 @@
     "cityStrengthFromTechsFullMultiplier": 1.0,
     "cityStrengthFromGarrison": 0.2,
   }
-]
+}
     
