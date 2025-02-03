@@ -2,11 +2,14 @@
   "constants": {
     //changed from 8.0 to 1
     "cityStrengthBase": 1,
-    "cityStrengthPerPop": 0.4,
+    //changed from 0.4 to 0.5
+    "cityStrengthPerPop": 0.5,
     "cityStrengthFromTechsMultiplier": 5.5,
     "cityStrengthFromTechsExponent": 2.8,
-    "cityStrengthFromTechsFullMultiplier": 1.0,
-    "cityStrengthFromGarrison": 0.2,
+    //changed from 1.0 to 0.0
+    "cityStrengthFromTechsFullMultiplier": 0.0,
+    //changed from 0.2 to 1.0
+    "cityStrengthFromGarrison": 1.0,
   }
 }
     
